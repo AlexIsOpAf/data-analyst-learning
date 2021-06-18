@@ -30,25 +30,24 @@
   - [Stage 3.1: SQL Project: Optional](#stage-31-sql-project-optional)
 - [Stage 4: Tableau](#stage-4-tableau)
 - [Stage 5: Python](#stage-5-python)
-- [Stage 6: Github](#stage-6-github)
-- [Stage 7: Auxiliary](#stage-7-auxiliary)
-  - [Stage 7.1: JSON](#stage-71-json)
-  - [Stage 7.2: Data-warehousing principles and best practices (e.g. Dimensional Modelling, Cube Design)](#stage-72-data-warehousing-principles-and-best-practices-eg-dimensional-modelling-cube-design)
-  - [Stage 7.3: A/B testing implementation](#stage-73-ab-testing-implementation)
-  - [Stage 7.4: AWS & the cloud](#stage-74-aws--the-cloud)
-  - [Stage 7.5: Statistics](#stage-75-statistics)
+- [Stage 6: Auxiliary](#stage-6-auxiliary)
+  - [Stage 6.1: JSON Overview](#stage-61-json-overview)
+    - [Why should I use JSON?](#why-should-i-use-json)
+  - [Stage 6.2: Data-warehousing principles and best practices (e.g. Dimensional Modelling, Cube Design)](#stage-62-data-warehousing-principles-and-best-practices-eg-dimensional-modelling-cube-design)
+  - [Stage 6.3: A/B testing implementation](#stage-63-ab-testing-implementation)
+  - [Stage 6.4: AWS & the cloud](#stage-64-aws--the-cloud)
+  - [Stage 6.5: Statistics](#stage-65-statistics)
 - [Stage 8: Creating your own project to start](#stage-8-creating-your-own-project-to-start)
-- [Stage 9: CV update to reflect new skills.. Certification acquiring & projects](#stage-9-cv-update-to-reflect-new-skills-certification-acquiring--projects)
 
 
 
 **Q: For jobs, How much should I know and is excel really a need?**
 
-**A: “It really depends on the position. For the most part it's Data Analyst positions that call for knowledge of Excel, some Data Analyst positions don't use Python or R at all. Hypothetically a Data Analyst shouldn't need Excel because they can do everything that Excel can do using Python/R/SQL but in practice Excel is the application of choice for non-technical people to look at data so some basic knowledge of it is necessary for communication purposes.”**.
+**A: "It really depends on the position. For the most part it's Data Analyst positions that call for knowledge of Excel, some Data Analyst positions don't use Python or R at all. Hypothetically a Data Analyst shouldn't need Excel because they can do everything that Excel can do using Python/R/SQL but in practice Excel is the application of choice for non-technical people to look at data so some basic knowledge of it is necessary for communication purposes."**.
 
 **Q: If I go through everything here, am I guranteed a job?**
 
-**A: “Anybody can learn the technical skills of data analysis if they have the time and apply themselves, so companies try to pick and choose the people best for their organization. Companies are always changing and trying to do things better, and a big part of data analysis is reporting your findings to people that don’t understand the data analysis. So if you can be open minded, kind, open to change, and a self starter, your skillset can get you a job tomorrow.”**.
+**A: "Anybody can learn the technical skills of data analysis if they have the time and apply themselves, so companies try to pick and choose the people best for their organization. Companies are always changing and trying to do things better, and a big part of data analysis is reporting your findings to people that don’t understand the data analysis. So if you can be open minded, kind, open to change, and a self starter, your skillset can get you a job tomorrow."**.
 
 
 ![Imgur](data-science.jpeg)
@@ -61,10 +60,10 @@ I will also try to expose you to the cloud so you can showcase something origina
 
 I'm also going to push to start reguarly watching Data Analyst channels here are some:
 
-[Chandoo](https://www.youtube.com/channel/UC8uU_wruBMHeeRma49dtZKA)
-[Alex the Analyst](https://www.youtube.com/channel/UC7cs8q-gJRlGwj4A8OmCmXg)
-[Ali](https://www.youtube.com/channel/UCaDh-eU-lds_d9kS976vBVw)
-[Kyle (Data scientist but some of the content overlaps)](https://www.youtube.com/channel/UCr6_XCxMLXWGguWZi_93n7w)
+-   [Chandoo](https://www.youtube.com/channel/UC8uU_wruBMHeeRma49dtZKA)
+-   [Alex the Analyst](https://www.youtube.com/channel/UC7cs8q-gJRlGwj4A8OmCmXg)
+-   [Ali](https://www.youtube.com/channel/UCaDh-eU-lds_d9kS976vBVw)
+-   [Kyle (Data scientist but some of the content overlaps)](https://www.youtube.com/channel/UCr6_XCxMLXWGguWZi_93n7w)
 
 Use these channels to take "Active breaks" use a different part of your brain.
 
@@ -74,7 +73,7 @@ Use these channels to take "Active breaks" use a different part of your brain.
 
 **Credit to [Kirsten Slyter](https://www.rasmussen.edu/student-life/blogs/author-archives/kirsten-slyter/) for producing invaluable insight into the data analyst role.**
 
-Generally speaking, a data analyst will retrieve and gather data, organize it and use it to reach meaningful conclusions. “Data analysts’ work varies depending on the type of data that they’re working with (sales, social media, inventory, etc.) as well as the specific client project,” says Stephanie Pham, analyst for Porter Novelli.
+Generally speaking, a data analyst will retrieve and gather data, organize it and use it to reach meaningful conclusions. "Data analysts’ work varies depending on the type of data that they’re working with (sales, social media, inventory, etc.) as well as the specific client project," says Stephanie Pham, analyst for Porter Novelli.
 
 Companies in nearly every industry can benefit from the work of data analysts, from healthcare providers to retail stores to fast food chains. The insights that data analysts bring to an organization can be valuable to employers who want to know more about the needs of their consumer or end user.
 
@@ -85,26 +84,26 @@ Analysts can be involved in any part of the analysis process. In a data analyst 
 ### What are some common data analyst responsibilities?
 
 #### Producing reports
-“As an analyst, I spend a significant amount of time producing and maintaining both internal and client-facing reports,” says Casey Pearson, marketing analyst at Delphic Digital. Those reports give management insights about new trends on the horizon as well as areas the company may need to improve upon.
+"As an analyst, I spend a significant amount of time producing and maintaining both internal and client-facing reports," says Casey Pearson, marketing analyst at Delphic Digital. Those reports give management insights about new trends on the horizon as well as areas the company may need to improve upon.
 
-Writing up a report isn’t as simple as throwing numbers onto a blank page and sending it to your manager. “Successful data analysts understand how to create narratives with data,” says Jess Kendra, manager of analytics at Porter Novelli. “To remain valuable, the reports, answers and insights that data analysis provides have to be understood by the next decision-maker, who frequently is not an analyst.”
+Writing up a report isn’t as simple as throwing numbers onto a blank page and sending it to your manager. "Successful data analysts understand how to create narratives with data," says Jess Kendra, manager of analytics at Porter Novelli. "To remain valuable, the reports, answers and insights that data analysis provides have to be understood by the next decision-maker, who frequently is not an analyst."
 
 #### Spotting patterns
-The most effective data analysts are able to use data to tell a story. In order to produce a meaningful report, a data analyst first has to be able to see important patterns in the data. “At the base level, data is used to find trends and insights that we can use to make recommendations to our clients,” Pham says.
+The most effective data analysts are able to use data to tell a story. In order to produce a meaningful report, a data analyst first has to be able to see important patterns in the data. "At the base level, data is used to find trends and insights that we can use to make recommendations to our clients," Pham says.
 
-Reporting in regular increments, such as weekly, monthly or quarterly, is important since it helps an analyst notice significant patterns. “They all contribute to an overarching time frame where we can see trends over time,” Pham adds.
+Reporting in regular increments, such as weekly, monthly or quarterly, is important since it helps an analyst notice significant patterns. "They all contribute to an overarching time frame where we can see trends over time," Pham adds.
 
 #### Collaborating with others
-Surprised to see this on the list? The word “analyst” might make you think of someone working apart from the rest of the company, but that’s far from the truth. The wide variety of data analyst roles and responsibilities means you’ll collaborate across many other departments in your organization including marketers, executives and salespeople. You’ll also likely collaborate closely with those who work in data science like data architects and database developers.
+Surprised to see this on the list? The word "analyst" might make you think of someone working apart from the rest of the company, but that’s far from the truth. The wide variety of data analyst roles and responsibilities means you’ll collaborate across many other departments in your organization including marketers, executives and salespeople. You’ll also likely collaborate closely with those who work in data science like data architects and database developers.
 
-Being able to communicate well is important. “Your success is dependent on your ability to work with people—the people you are gathering the research questions from, peers you collaborate with to execute the work and the people you deliver the final presentation to,” Kendra says.
+Being able to communicate well is important. "Your success is dependent on your ability to work with people—the people you are gathering the research questions from, peers you collaborate with to execute the work and the people you deliver the final presentation to," Kendra says.
 
 #### Collecting data and setting up infrastructure
 Perhaps the most technical aspect of an analyst’s job is collecting the data itself. This often means working together with web developers to optimize data collection, according to Pearson.
 
 Streamlining this data collection is key for data analysts. They work to develop routines that can be automated and easily modified for reuse in other areas. Analysts keep a handful of specialized software and tools in their arsenal to help them accomplish this.
 
-![Imgur](./data-analytics-vs-data-science.jpeg)
+![Imgur](data-analytics-vs-data-science.jpeg)
 
 ### Skills & Technologies does a data analyst need to know
 
@@ -112,10 +111,10 @@ Streamlining this data collection is key for data analysts. They work to develop
 
 At its core, data analytics is about answering questions and making decisions. And just as there are different types of questions, there are also different types of data analytics depending on what you’re hoping to accomplish. While there’s no set-in-stone glossary of these types of data analytics, the folks at ScienceSoft do an excellent job breaking this work down into four primary areas:2
 
--   Descriptive analytics answers, “What happened?”
--   Diagnostic analytics answers, “Why did something happen?”
--   Predictive analytics answers, “What is likely to happen?”
--   Prescriptive analytics answers, “What action should be taken?”
+-   Descriptive analytics answers, "What happened?"
+-   Diagnostic analytics answers, "Why did something happen?"
+-   Predictive analytics answers, "What is likely to happen?"
+-   Prescriptive analytics answers, "What action should be taken?"
 
 
 Data analysts can tailor their work and solution to fit the scenario. For instance, if a manufacturer is plagued with delays and unplanned stoppages, a diagnostic analytics approach could help identify what exactly is causing these delays. From there, other forms of analysis can be used for fixing these issues.
@@ -210,26 +209,25 @@ Use this [book](https://www.programmer-books.com/wp-content/uploads/2018/12/Exce
 [Welcome to excel](https://www.youtube.com/watch?v=rwbho0CgEAE&ab_channel=codebasicscodebasicsVerified)
 
 ### Stage 2.1: Data Filters
-[Review the excel filter basics](https://www.youtube.com/watch?v=wMlTDXPEjag)
-[Review the excel advanced filter](https://www.youtube.com/watch?v=VqQACB_69SQ)
+-   [Review the excel filter basics](https://www.youtube.com/watch?v=wMlTDXPEjag)
+-   [Review the excel advanced filter](https://www.youtube.com/watch?v=VqQACB_69SQ)
 ### Stage 2.2: Functions
-[Review the excel functions lecture](https://www.youtube.com/watch?v=Jl0Qk63z2ZY)
-[Review the additional excel functions video](https://www.youtube.com/watch?v=_EWcAR_Hkvg&ab_channel=LeilaGharaniLeilaGharani)
+-   [Review the excel functions lecture](https://www.youtube.com/watch?v=Jl0Qk63z2ZY)
+-   [Review the additional excel functions video](https://www.youtube.com/watch?v=_EWcAR_Hkvg&ab_channel=LeilaGharaniLeilaGharani)
 ### Stage 2.3: Formulas
-[Review the excel formulas lecture](https://www.youtube.com/watch?v=y1126PQ5zRU&ab_channel=LeilaGharani)
-[Review the additional excel formula lecture](https://www.youtube.com/watch?v=ShBTJrdioLo&ab_channel=TheOrganicChemistryTutor)
-[Review the excel advanced formula lecture](https://www.youtube.com/watch?v=F2AD24ETgaE&ab_channel=TeachExcelTeachExcel)
+-   [Review the excel formulas lecture](https://www.youtube.com/watch?v=y1126PQ5zRU&ab_channel=LeilaGharani)
+-   [Review the additional excel formula lecture](https://www.youtube.com/watch?v=ShBTJrdioLo&ab_channel=TheOrganicChemistryTutor)
+-   [Review the excel advanced formula lecture](https://www.youtube.com/watch?v=F2AD24ETgaE&ab_channel=TeachExcelTeachExcel)
 ### Stage 2.4: Charts and plots
-[Review the introduction to charts and plots](https://www.youtube.com/watch?v=TfkNkrKMF5c&ab_channel=TechnologyforTeachersandStudentsTechnologyforTeachersandStudents)
-[Review the additional charts lecture](https://www.youtube.com/watch?v=DAU0qqh_I-A&ab_channel=LeilaGharaniLeilaGharani)
-[Review the excel charts lecture](https://www.youtube.com/watch?v=8g9DK5noi1s&ab_channel=LeilaGharaniLeilaGharaniVerified)
-
+-   [Review the introduction to charts and plots](https://www.youtube.com/watch?v=TfkNkrKMF5c&ab_channel=TechnologyforTeachersandStudentsTechnologyforTeachersandStudents)
+-   [Review the additional charts lecture](https://www.youtube.com/watch?v=DAU0qqh_I-A&ab_channel=LeilaGharaniLeilaGharani)
+-   [Review the excel charts lecture](https://www.youtube.com/watch?v=8g9DK5noi1s&ab_channel=LeilaGharaniLeilaGharaniVerified)
 ### Stage 2.5: Pivot table & Transpose
-[Review the excel pivot table lecture](https://www.youtube.com/watch?v=qu-AK0Hv0b4)
-[Review the excel transpose lecture](https://www.youtube.com/watch?v=yYVokk0NdiI&ab_channel=LeilaGharaniLeilaGharaniVerified)
-[Review the additional transpose lecture](https://www.youtube.com/watch?v=YiC-z_FH7SU&ab_channel=TechnologyforTeachersandStudentsTechnologyforTeachersandStudents)
+-   [Review the excel pivot table lecture](https://www.youtube.com/watch?v=qu-AK0Hv0b4)
+-   [Review the excel transpose lecture](https://www.youtube.com/watch?v=yYVokk0NdiI&ab_channel=LeilaGharaniLeilaGharaniVerified)
+-   [Review the additional transpose lecture](https://www.youtube.com/watch?v=YiC-z_FH7SU&ab_channel=TechnologyforTeachersandStudentsTechnologyforTeachersandStudents)
 ### Stage 2.6: Vlookup
-[Review the excel VLOOKUP lecture - important!](https://www.youtube.com/watch?v=d3BYVQ6xIE4&ab_channel=ExcelCampus-JonExcelCampus-Jon)
+-   [Review the excel VLOOKUP lecture - important!](https://www.youtube.com/watch?v=d3BYVQ6xIE4&ab_channel=ExcelCampus-JonExcelCampus-Jon)
 ### Stage 2.7: VBA macros
 It is not necessary for you to go through all of this in one sitting. Make sure you can answer these questions before you move on.. What are macros? What is VBA? What is object oriented programming? What is the use in VBA macros?
 
@@ -249,7 +247,7 @@ When done:
 
 Again.. Understand how things work, change the values, play around with it, delete things, look at the formulas/functions.. but make sure you understand what is going on.
 
-You can choose to build a visualisation if you'd like to cement your knowledge, or you can move on.
+You can choose to replicate the excel visualisation if you'd like to cement your knowledge, or you can move on.
 
 ![Imgur](database-157334670-5c29939d46e0fb0001edf766.jpeg)
 
@@ -257,34 +255,91 @@ You can choose to build a visualisation if you'd like to cement your knowledge, 
 
 This stage is going to be extremely important because this is a Data analyst's bread and butter, you should know how to leverage database technologies. You will often feel you are repeating content, this is done on purpose so you can digest the content naturally.
 
-[Review the SQL lecture - extremely important!!!](https://www.youtube.com/watch?v=HXV3zeQKqGY) Unfortunately you will need to go through this content in it's entirety.
+there are naturally more advanced features of SQL, You should have an idea of them for e.g: VIEWS
 
+Your checklist before you can confidently move on:
+
+- [ ] Understanding the basics of Relational Databases (Tables,records,primary keys,attributes,foreign keys)
+- [ ] Understanding the SQL Commands and their distinctions (CREATE,DROP,ALTER,TRUNCATE,INSERT,UPDATE,DELETE,GRANT,REVOKE,SELECT)
+- [ ] Knowledge of Joins (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN)
+- [ ] Advanced SQL (UNION, UNION ALL, INTERSECT, MINUS, LIMIT, TOP, CASE, DECODE, AUTO-INCREMENT, IDENTITY)
+
+[Review the SQL lecture - extremely important!!!](https://www.youtube.com/watch?v=HXV3zeQKqGY) Unfortunately you will need to go through this content in it's entirety.
 
 [Review the Google DA Course 3, 4 & 5](https://www.coursera.org/professional-certificates/google-data-analytics?utm_source=gg&utm_medium=sem&utm_campaign=15-GoogleDataAnalytics-ROW&utm_content=15-GoogleDataAnalytics-ROW&campaignid=12566515400&adgroupid=117869292685&device=c&keyword=google%20data%20analytics&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=507290840627&hide_mobile_promo&gclid=Cj0KCQjw5auGBhDEARIsAFyNm9Go6W35DpZV9ykk45xg46fwyy0apeXHMHvcWN6TowX741u6sJwM3cEaAkL3EALw_wcB#courses)
 
 
 ### Stage 3.1: SQL Project: Optional
 
-Using your newly acquired skills, You should be able to set up a SQL workspace, ingest the .csv data and perform operations you've learned about:
+Using your newly acquired skills, You should be able to set up a SQL workspace, ingest the .csv data given earlier and perform operations you've learned about:
 
 - SELECT
 - JOIN
 - DELETE
-- DROP
-- CREATE
-- CONSTRAINTS
 - etc
 
-
-
 ## Stage 4: Tableau
+
+Just as SQL is a data analysts bread and butter, so is having a way to visualise data and tell a story. Tableau is a way to give insight to your data or trend you are pushing, You are telling a story.
+
+[Review the Google DA Course 6](https://www.coursera.org/professional-certificates/google-data-analytics?utm_source=gg&utm_medium=sem&utm_campaign=15-GoogleDataAnalytics-ROW&utm_content=15-GoogleDataAnalytics-ROW&campaignid=12566515400&adgroupid=117869292685&device=c&keyword=google%20data%20analytics&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=507290840627&hide_mobile_promo&gclid=Cj0KCQjw5auGBhDEARIsAFyNm9Go6W35DpZV9ykk45xg46fwyy0apeXHMHvcWN6TowX741u6sJwM3cEaAkL3EALw_wcB#courses)
+
+[Review the Tableau course by Edureka](https://www.youtube.com/watch?v=aHaOIvR00So&ab_channel=BharatiDWConsultancyBharatiDWConsultancy)
+
+Note: Make sure you understand how you would create beautiful visualisations, To solidify your knowledge as this is an important section, Build visualisations for something you are interested in; Euros, Fifa, Shoes, Stocks etc etc..
+
 ## Stage 5: Python
-## Stage 6: Github
-## Stage 7: Auxiliary
-### Stage 7.1: JSON
-### Stage 7.2: Data-warehousing principles and best practices (e.g. Dimensional Modelling, Cube Design)
-### Stage 7.3: A/B testing implementation
-### Stage 7.4: AWS & the cloud
-### Stage 7.5: Statistics
+
+**Content to be reviewed and structured after feedback**
+
+[Data analysis with Python Course - Numpy, Pandas, Data visualisation](https://www.youtube.com/watch?v=GPVsHOlRBBI&ab_channel=freeCodeCamp.org)
+
+![Imgur](./Nemo_hero.jpeg)
+
+
+## Stage 6: Auxiliary
+
+These are additional skills and resources that aren't necessarily core to a data analyst, but a fundamental understanding gives you perspective and increases your chances at landing a job
+
+### Stage 6.1: JSON Overview
+
+**Credit to [Josh Fruhlinger](https://www.infoworld.com/author/Josh-Fruhlinger/)
+Credit to [Costas Andreou](https://medium.com/@costasandreou?source=post_page-----a53c3b88cc0--------------------------------)**
+
+JavaScript Object Notation is a schema-less, text-based representation of structured data that is based on key-value pairs and ordered lists. Although JSON is derived from JavaScript, it is supported either natively or through libraries in most major programming languages. JSON is commonly, but not exclusively, used to exchange information between web clients and web servers. 
+
+Over the last 15 years, JSON has become ubiquitous on the web. Today it is the format of choice for almost every publicly available web service, and it is frequently used for private web services as well.
+
+
+#### Why should I use JSON?
+
+It is believed that the first major company to begin offering services and therefore popularising the adoption of JSON, was Yahoo in 2005¹. It is now believed that JSON is the most used data format.
+
+The top reasons people use JSON are:
+
+-   Very easy to read, write and manipulate
+-   It’s very fast to transfer over the network
+-   Supported by all major browsers, backend tech stacks
+-   You will most likely work with JSON when working with unstructured data
+
+```json
+{
+  "firstName": "Jonathan",
+  "lastName": "Freeman",
+  "address": "Crestwell 109th Street",
+  "isWriter": true,
+  "worksWith": ["Spantree Technology Group", "InfoWorld"],
+  "pets": [
+    {
+      "name": "Lilly",
+      "type": "Raccoon"
+    }
+  ]
+}
+```
+
+### Stage 6.2: Data-warehousing principles and best practices (e.g. Dimensional Modelling, Cube Design)
+### Stage 6.3: A/B testing implementation
+### Stage 6.4: AWS & the cloud
+### Stage 6.5: Statistics
 ## Stage 8: Creating your own project to start
-## Stage 9: CV update to reflect new skills.. Certification acquiring & projects
