@@ -27,9 +27,16 @@
   - [Stage 2.7: VBA macros](#stage-27-vba-macros)
   - [Stage 2.8: Hands-on look](#stage-28-hands-on-look)
 - [Stage 3: Databases & SQL](#stage-3-databases--sql)
-  - [Stage 3.1: SQL Project: Optional](#stage-31-sql-project-optional)
+  - [Stage 3.1: SQL Project](#stage-31-sql-project)
 - [Stage 4: Tableau](#stage-4-tableau)
 - [Stage 5: Python](#stage-5-python)
+  - [Why is Python good for Data analysis](#why-is-python-good-for-data-analysis)
+    - [Data Mining](#data-mining)
+    - [Data Processing and Modelling](#data-processing-and-modelling)
+    - [Data Visualization](#data-visualization)
+  - [Python: Intro to Python (Entry)](#python-intro-to-python-entry)
+  - [Python: Python I](#python-python-i)
+    - [Python: Python I - Project](#python-python-i---project)
 - [Stage 6: Auxiliary](#stage-6-auxiliary)
   - [Stage 6.1: JSON Overview](#stage-61-json-overview)
     - [Why should I use JSON?](#why-should-i-use-json)
@@ -37,7 +44,6 @@
   - [Stage 6.3: A/B testing implementation](#stage-63-ab-testing-implementation)
   - [Stage 6.4: AWS & the cloud](#stage-64-aws--the-cloud)
   - [Stage 6.5: Statistics](#stage-65-statistics)
-- [Stage 8: Creating your own project to start](#stage-8-creating-your-own-project-to-start)
 
 
 
@@ -148,6 +154,8 @@ Data analysts can tailor their work and solution to fit the scenario. For instan
 Creating 1 or 2 extremely well built projects to showcase in your portfolio. Having this on your CV shows to an employer that you are a self starter and are passionate about a role
 
 [Project Ideas for Your Data Analytics Portfolio](https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-project-ideas/)
+
+Start thinking about what kind of project you want to build as your "Main" project. The project that when recruiters or hiring managers bring up in an interview you are proud to explain your design, implementation and what you would change given a chance to re-do. 
 
 #### Acquiring Certifications
 
@@ -269,14 +277,13 @@ Your checklist before you can confidently move on:
 [Review the Google DA Course 3, 4 & 5](https://www.coursera.org/professional-certificates/google-data-analytics?utm_source=gg&utm_medium=sem&utm_campaign=15-GoogleDataAnalytics-ROW&utm_content=15-GoogleDataAnalytics-ROW&campaignid=12566515400&adgroupid=117869292685&device=c&keyword=google%20data%20analytics&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=507290840627&hide_mobile_promo&gclid=Cj0KCQjw5auGBhDEARIsAFyNm9Go6W35DpZV9ykk45xg46fwyy0apeXHMHvcWN6TowX741u6sJwM3cEaAkL3EALw_wcB#courses)
 
 
-### Stage 3.1: SQL Project: Optional
+### Stage 3.1: SQL Project
 
-Using your newly acquired skills, You should be able to set up a SQL workspace, ingest the .csv data given earlier and perform operations you've learned about:
+Using your newly acquired skills, You should be able to set up a SQL workspace, ingest the .csv data given earlier and perform operations you've learned about
 
-- SELECT
-- JOIN
-- DELETE
-- etc
+Go through this example SQL [video](https://www.youtube.com/watch?v=qfyynHBFOsM) and make sure that when you are completing it, You are writing notes and really digesting the material. Alex is an excellent analyst, understand his thought process and it will help you later on down the line.
+
+When you're done with this project, you can add it to your portfolio - github, but it will not be in your CV.
 
 ## Stage 4: Tableau
 
@@ -286,15 +293,169 @@ Just as SQL is a data analysts bread and butter, so is having a way to visualise
 
 [Review the Tableau course by Edureka](https://www.youtube.com/watch?v=aHaOIvR00So&ab_channel=BharatiDWConsultancyBharatiDWConsultancy)
 
-Note: Make sure you understand how you would create beautiful visualisations, To solidify your knowledge as this is an important section, Build visualisations for something you are interested in; Euros, Fifa, Shoes, Stocks etc etc..
+Again; go through this [video](https://www.youtube.com/watch?v=QILNlRvJlfQ) for practical experience. You can add it to your portfolio but it will not be in your CV
+
 
 ## Stage 5: Python
 
-**Content to be reviewed and structured after feedback**
+Credit to **Dawid Karczewski**
+
+Python is an interpreted, general-purpose, high-level language with an object-oriented approach. The language is used for API development, Artificial Intelligence, web development, Internet of Things, etc. 
+
+The part of why Python has become so popular is because it is widely used among data scientists. It is one of the easiest languages to learn and has impressive libraries and works perfectly for every stage of data science. 
+
+So the short answer to the question of whether Python is good for data analysis is yes.
+
+
+I will also be setting up small python projects so you can understand how to think like a programmer from translating my requirements into code. The solutions will be annotated.
+
+### Why is Python good for Data analysis
+
+Python works well on every stage of data analysis. It is the Python libraries that were designed for data science that are so helpful. Data mining, data processing, and modeling along with data visualization are the 3 most popular ways of how Python is being used for data analysis. 
+
+#### Data Mining
+
+A data engineer uses libraries such as Scrapy and BeautifulSoup for data mining Python-based approach. With the help of Scrapy, one can build special programs that can collect structured data from the web. It is also widely used for collecting data from APIs. 
+
+BeautifulSoup is used when one can not retrieve data from APIs: it scrapes data and arranges in the preferable format. 
+
+![BeautifulSoup in action, scraping data from the Web](https://stackabuse.s3.amazonaws.com/media/parsing-html-with-beautifulsoup-in-python-4.gif)
+
+
+#### Data Processing and Modelling
+
+Two main libraries are used at this stage: NumPy and Pandas. NumPy (Numerical Python) is used for arranging big data sets and makes math operations and their vectorization on arrays easier. Pandas offers two data structures: series (a list of items) and data frames (a table with multiple columns). This library converts data to the data frame allowing you to delete or add new columns to it and perform various operations. 
+
+![A linear regression modelling in NumPy](https://lh6.googleusercontent.com/xuSK3mWUr0WuOgOYqNR_sthvqX7pyVwXZrBB6-FwkWlAQsFyRWTFgFiFQmiGq7k-ZdMaub7rnmDWpyzxk2umxY6c0icxX5sKYjK65Itj58ulpeAhHszGFMoKNi1wedffgYjuKGSM)
+
+
+#### Data Visualization
+
+Matplotlib and Seaborn are widely used for Python data visualization. It means that they help to convert long lists of numbers into easy-to-understand graphics, histograms, pie charts, heatmaps, etc. 
+
+Of course, there are way more libraries than we have mentioned. Python offers numerous tools for data analysis projects and can assist during any task within the process. 
+
+![Matplotlib is just one of many Python libraries supporting data visualisation](https://lh5.googleusercontent.com/7GQF9jq6dPwSDaWINfOQm8krOq34I4Pq1o3R8_UDd3SvgnVO959crbM0FiAdh833ZHbVgYjsGkHNZmCFlYXSAyEZ0o4dezmKmdoUkn8HmLWlOwK5UuzotaCH-wSypjcDk5NlYd1A)
 
 [Data analysis with Python Course - Numpy, Pandas, Data visualisation](https://www.youtube.com/watch?v=GPVsHOlRBBI&ab_channel=freeCodeCamp.org)
 
 ![Imgur](./Nemo_hero.jpeg)
+
+### Python: Intro to Python (Entry)
+
+Our immediate checklist will look something like:
+
+- [ ] [Installing Python & PyCharm](https://www.youtube.com/watch?v=rfscVS0vtbw&t=105s)
+- [ ] [Setup & Hello World](https://www.youtube.com/watch?v=rfscVS0vtbw&t=400s)
+- [ ] [What are static & dynamic programming languages](https://www.youtube.com/watch?v=S5hoGPYitNQ)
+- [ ] [Variables & Data types](https://www.youtube.com/watch?v=rfscVS0vtbw&t=906s)
+- [ ] [Working with Strings](https://www.youtube.com/watch?v=rfscVS0vtbw&t=1623s)
+- [ ] [Working with Numbers](https://www.youtube.com/watch?v=rfscVS0vtbw&t=2298s)
+
+</br>
+
+**Quiz**
+<details>
+  <summary>1. In python a variable must be declared before it is assigned a value (True or False)?</summary>
+  True
+</details>
+<details>
+  <summary>2. What is the syntax that assigns the value 100 to the variable x</summary>
+  x = 100
+</details>
+<details>
+  <summary>3. In python a variable may be assigned a value of one type and then later assigned a value of a different type (True or False)?</summary>
+  True
+</details>
+<details>
+  <summary>4. What is the name of the data type, when its values are True or False. For e.g: x = False?</summary>
+  Boolean/Bool
+</details>
+
+
+### Python: Python I
+
+Note: For static typed languages like C++ or Java, Arrays or lists are homogeneous.. Meaning all the values that exists within that container must be of same type. For dynamic typed languages such as Python or Ruby, You can have heterogeneous Arrays/Lists.
+
+Homogeneous = [1,2,3,4,5]
+Heterogeneous = ["Alex", "Jason", 3, 2, 1]
+
+- [ ] [Data Structures & Algorithms](https://www.youtube.com/watch?v=bum_19loj9A&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgVerified)
+    - [ ] [Lists - Overview](https://www.youtube.com/watch?v=pmN9ExDf3yQ&ab_channel=CSDojoCSDojoVerified)
+      - [ ] [Lists](https://www.youtube.com/watch?v=rfscVS0vtbw&t=3790s)
+      - [ ] [Lists Functions](https://www.youtube.com/watch?v=rfscVS0vtbw&t=4244s)
+    - [ ] [Tuple](https://www.youtube.com/watch?v=rfscVS0vtbw&t=4737s)
+    - [ ] [Dictionaries](https://www.youtube.com/watch?v=rfscVS0vtbw&t=7637s)
+- [ ] [IF statements](https://www.youtube.com/watch?v=rfscVS0vtbw&t=6006s)
+- [ ] [Functions](https://www.youtube.com/watch?v=rfscVS0vtbw&t=5055s)
+- [ ] [Return Statement](https://www.youtube.com/watch?v=rfscVS0vtbw&t=5651s)
+- [ ] [For loop](https://www.youtube.com/watch?v=rfscVS0vtbw&t=9164s)
+- [ ] [Modules & Pip](https://www.youtube.com/watch?v=rfscVS0vtbw&t=12493s)
+
+
+#### Python: Python I - Project
+
+You should know how to leverage your command line by now, But just to make sure..
+
+Install pytest using pip:
+```
+pip install -U pytest
+```
+
+Check you have installed the correct version:
+```
+$ pytest --version
+pytest 6.2.4
+```
+
+
+
+**Question:**
+
+Given a list of integers. Define through python, a running total of the sum. Update the list with the running sum and **return** the updated list from the solution function.
+
+<details>
+  <summary>Example</summary>
+    Input: nums = [1,2,3,4]
+    </br>
+    Output: [1, 3, 6, 10]
+    </br>
+    Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
+</details>
+
+<details>
+  <summary>Example2</summary>
+    Input: nums = [3,1,2,10,1]
+    </br>
+    Output: [3,4,6,16,17]
+</details>
+
+</br>
+
+When you are done with the task, run this command to check your work
+
+```
+pytest Python-I/PythonI-template
+```
+
+If you have done this task correctly you should get a similar output
+
+<details>
+  <summary>Example</summary>
+
+  ```
+=========================================================== test session starts ===========================================================
+platform darwin -- Python 3.7.3, pytest-6.2.4, py-1.10.0, pluggy-0.12.0
+rootdir: /Users/XenaDatabase/Documents
+collected 1 item                                                                                                                          
+
+PythonI-sol.py .                                                                                                                    [100%]
+
+============================================================ 1 passed in 0.01s ============================================================
+  ```
+</details>
+
+
 
 
 ## Stage 6: Auxiliary
@@ -342,4 +503,3 @@ The top reasons people use JSON are:
 ### Stage 6.3: A/B testing implementation
 ### Stage 6.4: AWS & the cloud
 ### Stage 6.5: Statistics
-## Stage 8: Creating your own project to start
