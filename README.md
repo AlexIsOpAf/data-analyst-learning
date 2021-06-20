@@ -36,7 +36,6 @@
     - [Data Visualization](#data-visualization)
   - [Python: Intro to Python (Entry)](#python-intro-to-python-entry)
   - [Python: Python I](#python-python-i)
-    - [Python: Python I - Project](#python-python-i---project)
 - [Stage 6: Auxiliary](#stage-6-auxiliary)
   - [Stage 6.1: JSON Overview](#stage-61-json-overview)
     - [Why should I use JSON?](#why-should-i-use-json)
@@ -337,8 +336,6 @@ Of course, there are way more libraries than we have mentioned. Python offers nu
 
 ![Matplotlib is just one of many Python libraries supporting data visualisation](https://lh5.googleusercontent.com/7GQF9jq6dPwSDaWINfOQm8krOq34I4Pq1o3R8_UDd3SvgnVO959crbM0FiAdh833ZHbVgYjsGkHNZmCFlYXSAyEZ0o4dezmKmdoUkn8HmLWlOwK5UuzotaCH-wSypjcDk5NlYd1A)
 
-[Data analysis with Python Course - Numpy, Pandas, Data visualisation](https://www.youtube.com/watch?v=GPVsHOlRBBI&ab_channel=freeCodeCamp.org)
-
 ![Imgur](./Nemo_hero.jpeg)
 
 ### Python: Intro to Python (Entry)
@@ -393,7 +390,7 @@ Heterogeneous = ["Alex", "Jason", 3, 2, 1]
 - [ ] [Modules & Pip](https://www.youtube.com/watch?v=rfscVS0vtbw&t=12493s)
 
 
-#### Python: Python I - Project
+**Tasks**
 
 You should know how to leverage your command line by now, But just to make sure..
 
@@ -435,7 +432,7 @@ Given a list of integers. Define through python, a running total of the sum. Upd
 When you are done with the task, run this command to check your work
 
 ```
-pytest Python-I/PythonI-template
+pytest Python-I/PythonI-template.py
 ```
 
 If you have done this task correctly you should get a similar output
